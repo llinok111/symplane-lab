@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-11-12T18:32:25.022Z",
+  "node": "v24.19.0",
+  "mesh": {
+    "vertices": 1986,
+    "faces": 3968,
+    "diag": 8.614377
+  },
+  "detection": {
+    "coldMs": 262.467,
+    "samples": 5,
+    "values": [
+      251.547,
+      248.841,
+      246.995,
+      246.315,
+      243.445
+    ],
+    "min": 243.445,
+    "median": 246.995,
+    "p95": 248.841,
+    "stddev": 2.693,
+    "rsd": 0.0109,
+    "angleErrorDeg": 0.003963,
+    "rmsNorm": 0.001983567,
+    "baseline": {
+      "ms": 354.008,
+      "speedup": 1.43,
+      "angleErrorDeg": 7.659,
+      "grid": "36 fibonacci normals x 7 offsets, 1/6 vertex subsample"
+    }
+  },
+  "certificate": {
+    "grid": {
+      "samples": 7,
+      "values": [
+        6.919,
+        5.869,
+        6.346,
+        6.638,
+        4.85,
+        4.64,
+        4.791
+      ],
+      "min": 4.64,
+      "median": 5.869,
+      "p95": 6.638,
+      "stddev": 0.885,
+      "rsd": 0.1547
+    },
+    "brute120SamplesMs": 91.541,
+    "speedup": 15.6,
+    "gridMaxNorm": 0.002339798,
+    "oracleMaxNorm": 0.002339798,
+    "samples": 120,
+    "tolRel": 0.005,
+    "ok": true,
+    "fullPassSamples": 5954
+  },
+  "repair": {
+    "iterations": 2,
+    "ms": 135.774
+  }
+}

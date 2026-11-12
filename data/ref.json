@@ -1,0 +1,46 @@
+{
+  "generator": "tools/gen-sample.mjs",
+  "detectedPlane": {
+    "n": [
+      0.4178396376647663,
+      0.8208175936003532,
+      0.38944642151687886
+    ],
+    "d": 0.9088339054328511
+  },
+  "detectionRmsNorm": 0.0019835672222322603,
+  "detectionAngleErrorDeg": 0.003962867336471419,
+  "detectionOffsetErrorRelDiag": 0.000003302210300984409,
+  "certificate": {
+    "ok": false,
+    "maxNorm": 0.009410353899493714,
+    "tolRel": 0.005,
+    "over": 47,
+    "samples": 5954
+  },
+  "repaired": {
+    "iterations": 6,
+    "certOk": true,
+    "maxNormBefore": 0.009410353899493714,
+    "maxNormAfter": 0.0011153730872712775,
+    "rmsNormBefore": 0.0008497976694091433,
+    "rmsNormAfter": 0.00012512724425192034
+  },
+  "exact": {
+    "angleDeg": 0.0000012074182697257333,
+    "offsetErrorRelDiag": 1.3849549131835903e-18,
+    "rmsNorm": 2.0433244653014336e-13,
+    "symmetric": true
+  },
+  "asymmetric": {
+    "symmetric": false,
+    "rmsNorm": 0.020440577624651495
+  },
+  "liveCheck": {
+    "stride": 5,
+    "samples": 397,
+    "maxNormAtDetected": 0.008095693265277659
+  },
+  "vertexCount": 1986,
+  "faceCount": 3968
+}
